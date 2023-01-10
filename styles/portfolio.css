@@ -38,8 +38,9 @@ nav.li{
     list-style: none;
     display: flex;
 }
- .btn_basic{
-    height: 64px;
+ .btn_basic_down,.btn_basic{
+   width: 200px;
+   height: 64px;
     background: #FD6E0A;
     border-radius: 5px;
     color: #FFFFFF;
@@ -178,7 +179,46 @@ color: #757575;
 
  }
  /* resume content css */
- 
+ .resume_content_container{
+   display: flex;
+   gap: 24px;
+   
+   
+ }
+ .resume_sub_content{
+   margin-top: 30px;
+   margin-bottom: 30px;
+
+ }
+ .resume_sub_content.title{
+
+  
+   font-weight:700 ;
+font-size: 25px;
+color: #474747;
+margin-top :30px;
+margin-bottom :10px ;
+ }
+ .resume_sub_content.sub_title{
+   font-weight: 600;
+   font-size: 20px;
+   color: #757575;
+   margin-bottom :20px ;
+ }
+ .resume_sub_content.description{
+   color:  #757575 ;
+      font-weight: 400;
+   font-size: 16px;
+ }
+ .line{
+   border: 1px solid #D1D1D1;
+
+ }
+ .btn_basic_down{
+   margin: 50px 500px 0;
+   /* width: 200px; */
+
+ }
 
 
 
