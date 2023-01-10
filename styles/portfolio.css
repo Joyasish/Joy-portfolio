@@ -1,0 +1,138 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    
+    /* without font link in html this wont happen so both have to be given */
+    font-style: normal;
+}
+.header{
+    background: #FFF8F3;
+    background-image:url(/images/header_bg.png), url(/images/developer.png) ;
+    background-repeat: no-repeat;
+    background-position: bottom right,left
+    
+ }
+.basic_color{
+    color: #FD6E0A;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    
+}
+nav li{
+    list-style: none;
+    margin-left:10px ;
+}
+.nav_title {
+    font-weight: 800;
+    font-size: 45px;
+}
+nav.li{ 
+    /* if theres a class declared then giving instructions to parent wont work */
+    list-style: none;
+    display: flex;
+}
+ .btn_basic{
+    height: 64px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border:0 ;
+    padding: 10px 35px;
+ }  
+ .banner{
+    margin-left: 200px ;
+    align-items: center;
+   
+    display: flex;
+ }
+ #banner_1stline{
+font-weight: 600;
+font-size: 30px;
+margin-bottom: 0px;
+
+ }
+ #banner_mainline{
+ font-weight: 700;
+font-size: 50px;
+margin-bottom: 20px;
+ }
+ .banner_para{
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 30px;
+ }
+ .image{
+    margin-right: 90px;
+ }
+
+ .about_me{
+    margin-top:  130px;
+    padding: 130px 156px;
+
+    
+ }
+ .about_me_title{
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+
+ }
+ 
+ .about_me_banner{
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 30px;
+    color: #757575;
+
+ 
+
+ }
+ main{
+    margin-top:  130px;
+   max-width: 1140px;
+   margin: 0 auto;
+   /* margin - auto on left and right would take the thing on centre */
+   background:  #FFF8F3;
+border-radius: 10px;
+/* text-align: center; */
+
+ }
+ .table{
+   width: 782px;
+   
+   
+   text-align: center;
+   
+
+
+
+ }
+ .table_head{
+   font-weight: 400;
+   font-size: 20px;
+   color: #757575;
+ }
+ .table_data{
+   font-weight:700 ;
+font-size: 20px;
+color: #474747;
+ }
+ 
+ 
+ 
+
+    
+
+
+
+
