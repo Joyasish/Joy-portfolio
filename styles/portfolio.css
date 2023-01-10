@@ -219,7 +219,32 @@ margin-bottom :10px ;
    /* width: 200px; */
 
  }
+ /* ending styles */
+.ending_container{
+   display: flex;
+   background: #FFF8F3;
+   gap: 100px;
+   padding: 130px 230px;
 
+}
+.ending_container_content.section_title{
+   text-align: left;
+}
+.ending_container_content input[type="text"],input[type="email"],textarea{
+   margin-bottom: 24px;
+   padding: 18px 30px;
+   border: 0;
+   width: 100%;
+}
+input{
+   height: 64px;
+}
+.ending_container_description{
+   margin-bottom: 30px;
+}
+a{
+   text-decoration: none;
+}
 
 
     
