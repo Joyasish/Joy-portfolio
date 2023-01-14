@@ -20,12 +20,12 @@ nav {
     padding: 50px 200px;
     
 }
-nav ul{
+nav ul, .banner ul{
     display: flex;
     align-items: center;
     
 }
-nav li{
+nav li,.banner ul{
     list-style: none;
     margin-left:10px ;
 }
@@ -38,17 +38,33 @@ nav.li{
     list-style: none;
     display: flex;
 }
- .btn_basic_down,.btn_basic{
+.btn_basic,.btn_basic_down_bottom{
    width: 200px;
    height: 64px;
-    background: #FD6E0A;
-    border-radius: 5px;
-    color: #FFFFFF;
-    font-weight: 700;
-    font-size: 20px;
-    border:0 ;
-    padding: 10px 35px;
- }  
+   background-color: #FD6E0A;
+   border-radius: 5px;
+   color: #FFFFFF;
+   font-weight: 700;
+   font-size: 20px;
+   border:0 ;
+   padding: 10px 35px;
+ } 
+ #btn_contact{ 
+   width: 200px;
+   height: 64px;
+   
+   background-color: #FFFFFF;
+
+   
+   border-radius: 5px;
+   color: #FD6E0A;
+   font-weight: 700;
+   font-size: 20px;
+   border:1px solid #FD6E0A; ;
+   
+   padding: 10px 35px;
+   margin-left: 30px;
+ }
  .banner{
     margin-left: 200px ;
     align-items: center;
@@ -214,7 +230,7 @@ margin-bottom :10px ;
    border: 1px solid #D1D1D1;
 
  }
- .btn_basic_down{
+ .btn_basic_down_bottom{
    margin: 50px 500px 0;
    /* width: 200px; */
 
