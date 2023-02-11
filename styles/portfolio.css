@@ -8,7 +8,8 @@
 /* .header and .nav_title styles  */
 .header {
    background: #FFF8F3;
-   background-image: url('../images/header_bg.png'), url('../images/developer.png');
+   background-image: url('../images/header_bg.png') ;
+      /* url('../images/developer.png')  */
    background-repeat: no-repeat;
    background-position: bottom right, left
 }
@@ -107,12 +108,23 @@ nav.li {
 }
 
 .image {
-   margin-right: 90px;
+   /* width: 200px;
+  height: 300px;
+  object-fit: cover; */
+   /* margin-right: 90px; */
+}
+.banner_image{
+   /* position: absolute; */
+   /* margin-left: 300px; */
+   padding-left: 500px;
+   /* width: 70%; */
+  height: 100vh;
+  /* object-fit: cover; */
 }
 
 /* about_me styles */
 main {
-   margin-top: 130px;
+   /* margin-top: 130px; */
    max-width: 1140px;
    margin: 0 auto;
    /* margin - auto on left and right would take the thing on centre */
@@ -124,8 +136,8 @@ main {
 
 
 .about_me {
-   margin-top: 130px;
-   padding: 130px 156px;
+   margin-top: 30px;
+   padding: 30px 156px;
    background: #FFF8F3
 }
 
@@ -133,7 +145,7 @@ main {
    font-weight: 700;
    font-size: 35px;
    text-align: center;
-   margin-top: 130px;
+   margin-top: 30px;
 
 }
 
@@ -189,7 +201,7 @@ main {
 
 /*what_i_do styles  */
 .what_i_do {
-   margin-top: 30px ;
+   margin-top: 10px ;
    padding: 130px 100px;
 
 
@@ -197,7 +209,7 @@ main {
 }
 
 .what_i_do_banner {
-   width: 909px;
+   width: 1150px;
    margin-top: 60px;
    font-weight: 400;
    font-size: 18px;
@@ -210,6 +222,7 @@ main {
 
 .skill_container {
    display: flex;
+   justify-content: center;
    gap: 24px;
 
 }
@@ -242,6 +255,7 @@ main {
 /* resume content css */
 .resume_content_container {
    display: flex;
+   justify-content: center;
    gap: 24px;
 
 
@@ -290,16 +304,18 @@ main {
 /* ending styles */
 .ending_container {
    display: flex;
+   justify-content: center;
    background: #FFF8F3;
    gap: 100px;
-   padding: 130px 230px;
+   padding: 30px 30px;
+   align-items: center;
 
 }
 
-.ending_container_content.section_title {
+.ending_container_content_1.section_title {
    text-align: left;
 }
-
+/* 
 .ending_container_content input[type="text"],
 input[type="email"],
 textarea {
@@ -307,7 +323,7 @@ textarea {
    padding: 18px 30px;
    border: 0;
    width: 100%;
-}
+} */
 
 input {
    height: 64px;
@@ -317,6 +333,13 @@ input {
    margin-bottom: 30px;
 }
 
-a {
+.icons{
    text-decoration: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+}
+.linkedin{
+   padding-top: 5px;
 }
